@@ -15,6 +15,8 @@
 		1353A5B82A38DB6C00172204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1353A5B62A38DB6C00172204 /* LaunchScreen.storyboard */; };
 		1353A5C42A38DF2900172204 /* SDKQuickstartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1353A5C22A38DF2900172204 /* SDKQuickstartViewController.swift */; };
 		1353A5C52A38DF2900172204 /* SDKQuickstartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1353A5C32A38DF2900172204 /* SDKQuickstartViewController.xib */; };
+		1353A5C92A39F09600172204 /* UIKitQuickstartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1353A5C72A39F09600172204 /* UIKitQuickstartViewController.swift */; };
+		1353A5CA2A39F09600172204 /* UIKitQuickstartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1353A5C82A39F09600172204 /* UIKitQuickstartViewController.xib */; };
 		947B7A004843EB3228B98AF0 /* Pods_BroadcastStreaming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F5DBCA535E165B312168F4 /* Pods_BroadcastStreaming.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		1353A5B92A38DB6C00172204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1353A5C22A38DF2900172204 /* SDKQuickstartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKQuickstartViewController.swift; sourceTree = "<group>"; };
 		1353A5C32A38DF2900172204 /* SDKQuickstartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SDKQuickstartViewController.xib; sourceTree = "<group>"; };
+		1353A5C72A39F09600172204 /* UIKitQuickstartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitQuickstartViewController.swift; sourceTree = "<group>"; };
+		1353A5C82A39F09600172204 /* UIKitQuickstartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UIKitQuickstartViewController.xib; sourceTree = "<group>"; };
 		47F5DBCA535E165B312168F4 /* Pods_BroadcastStreaming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BroadcastStreaming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,6 +71,7 @@
 		1353A5AA2A38DB6A00172204 /* BroadcastStreaming */ = {
 			isa = PBXGroup;
 			children = (
+				1353A5C62A39F07B00172204 /* UIKitQuickstart */,
 				1353A5BF2A38DEE800172204 /* SDKQuickstart */,
 				1353A5AB2A38DB6A00172204 /* AppDelegate.swift */,
 				1353A5AD2A38DB6A00172204 /* SceneDelegate.swift */,
@@ -86,6 +91,15 @@
 				1353A5C32A38DF2900172204 /* SDKQuickstartViewController.xib */,
 			);
 			path = SDKQuickstart;
+			sourceTree = "<group>";
+		};
+		1353A5C62A39F07B00172204 /* UIKitQuickstart */ = {
+			isa = PBXGroup;
+			children = (
+				1353A5C72A39F09600172204 /* UIKitQuickstartViewController.swift */,
+				1353A5C82A39F09600172204 /* UIKitQuickstartViewController.xib */,
+			);
+			path = UIKitQuickstart;
 			sourceTree = "<group>";
 		};
 		36B928BAC3826B9884746567 /* Frameworks */ = {
@@ -166,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1353A5CA2A39F09600172204 /* UIKitQuickstartViewController.xib in Resources */,
 				1353A5C52A38DF2900172204 /* SDKQuickstartViewController.xib in Resources */,
 				1353A5B82A38DB6C00172204 /* LaunchScreen.storyboard in Resources */,
 				1353A5B52A38DB6C00172204 /* Assets.xcassets in Resources */,
@@ -223,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1353A5C42A38DF2900172204 /* SDKQuickstartViewController.swift in Sources */,
+				1353A5C92A39F09600172204 /* UIKitQuickstartViewController.swift in Sources */,
 				1353A5B02A38DB6A00172204 /* ViewController.swift in Sources */,
 				1353A5AC2A38DB6A00172204 /* AppDelegate.swift in Sources */,
 				1353A5AE2A38DB6A00172204 /* SceneDelegate.swift in Sources */,

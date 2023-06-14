@@ -28,17 +28,30 @@ PODS:
   - AgoraRtcEngine_iOS/VideoCodecEnc (4.2.0)
   - AgoraRtcEngine_iOS/VirtualBackground (4.2.0)
   - AgoraRtcEngine_iOS/VQA (4.2.0)
+  - AgoraRtm_iOS (1.5.1)
+  - AgoraRtmControl_iOS (4.1.1):
+    - AgoraRtm_iOS (~> 1.5.1)
+  - AgoraUIKit_iOS (4.1.1):
+    - AgoraRtcEngine_iOS (~> 4.2.0)
+    - AgoraRtmControl_iOS (= 4.1.1)
 
 DEPENDENCIES:
   - AgoraRtcEngine_iOS
+  - AgoraUIKit_iOS
 
 SPEC REPOS:
   trunk:
     - AgoraRtcEngine_iOS
+    - AgoraRtm_iOS
+    - AgoraRtmControl_iOS
+    - AgoraUIKit_iOS
 
 SPEC CHECKSUMS:
   AgoraRtcEngine_iOS: ab13aeb715fc00abc91c4f5c0baab9f05ad79aae
+  AgoraRtm_iOS: 595a9fa33a409831e6183396ea8f8bc563918403
+  AgoraRtmControl_iOS: 079ada035adea91e2b8fdca33a50e0daf3074189
+  AgoraUIKit_iOS: c0d65f7063f34743a2ec3c01019c257f54ec95b7
 
-PODFILE CHECKSUM: 0df68ed5e9c079d09dcc771399b615d98fd85914
+PODFILE CHECKSUM: 1d6626d76628b021a1d5ad13c82f0e1c92db7d38
 
 COCOAPODS: 1.12.0

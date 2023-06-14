@@ -5,7 +5,8 @@ workspace 'AgoraDemo.xcworkspace'
 project 'BroadcastStreaming/BroadcastStreaming.xcodeproj'
 
 def use_agora
-  pod 'AgoraRtcEngine_iOS'
+  pod 'AgoraRtcEngine_iOS', '~> 4.2.0'
+  pod 'AgoraUIKit_iOS', '~> 4.1.1'
 end
 
 target 'BroadcastStreaming' do
