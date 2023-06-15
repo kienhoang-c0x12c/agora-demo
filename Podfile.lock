@@ -36,8 +36,8 @@ PODS:
     - AgoraRtmControl_iOS (= 4.1.1)
 
 DEPENDENCIES:
-  - AgoraRtcEngine_iOS
-  - AgoraUIKit_iOS
+  - AgoraRtcEngine_iOS (~> 4.2.0)
+  - AgoraUIKit_iOS (~> 4.1.1)
 
 SPEC REPOS:
   trunk:
@@ -52,6 +52,6 @@ SPEC CHECKSUMS:
   AgoraRtmControl_iOS: 079ada035adea91e2b8fdca33a50e0daf3074189
   AgoraUIKit_iOS: c0d65f7063f34743a2ec3c01019c257f54ec95b7
 
-PODFILE CHECKSUM: 1d6626d76628b021a1d5ad13c82f0e1c92db7d38
+PODFILE CHECKSUM: 9adf01aac1434e24257f4742dee87c03dbc0aa45
 
 COCOAPODS: 1.12.0

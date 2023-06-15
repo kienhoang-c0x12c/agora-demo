@@ -5,6 +5,9 @@
       location = "group:BroadcastStreaming/BroadcastStreaming.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:InteractiveLiveStreaming/InteractiveLiveStreaming.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
