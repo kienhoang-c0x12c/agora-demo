@@ -19,6 +19,8 @@
 		1353A5CA2A39F09600172204 /* UIKitQuickstartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1353A5C82A39F09600172204 /* UIKitQuickstartViewController.xib */; };
 		1353A5F32A3B598400172204 /* StreamMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1353A5F12A3B598400172204 /* StreamMediaViewController.swift */; };
 		1353A5F42A3B598400172204 /* StreamMediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1353A5F22A3B598400172204 /* StreamMediaViewController.xib */; };
+		1353A5F82A3B750D00172204 /* CallQualityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1353A5F62A3B750D00172204 /* CallQualityViewController.swift */; };
+		1353A5F92A3B750D00172204 /* CallQualityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1353A5F72A3B750D00172204 /* CallQualityViewController.xib */; };
 		947B7A004843EB3228B98AF0 /* Pods_BroadcastStreaming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F5DBCA535E165B312168F4 /* Pods_BroadcastStreaming.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		1353A5C82A39F09600172204 /* UIKitQuickstartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UIKitQuickstartViewController.xib; sourceTree = "<group>"; };
 		1353A5F12A3B598400172204 /* StreamMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamMediaViewController.swift; sourceTree = "<group>"; };
 		1353A5F22A3B598400172204 /* StreamMediaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StreamMediaViewController.xib; sourceTree = "<group>"; };
+		1353A5F62A3B750D00172204 /* CallQualityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallQualityViewController.swift; sourceTree = "<group>"; };
+		1353A5F72A3B750D00172204 /* CallQualityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallQualityViewController.xib; sourceTree = "<group>"; };
 		47F5DBCA535E165B312168F4 /* Pods_BroadcastStreaming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BroadcastStreaming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -75,6 +79,7 @@
 		1353A5AA2A38DB6A00172204 /* BroadcastStreaming */ = {
 			isa = PBXGroup;
 			children = (
+				1353A5F52A3B74FE00172204 /* CallQuality */,
 				1353A5F02A3B596D00172204 /* StreamMedia */,
 				1353A5C62A39F07B00172204 /* UIKitQuickstart */,
 				1353A5BF2A38DEE800172204 /* SDKQuickstart */,
@@ -114,6 +119,15 @@
 				1353A5F22A3B598400172204 /* StreamMediaViewController.xib */,
 			);
 			path = StreamMedia;
+			sourceTree = "<group>";
+		};
+		1353A5F52A3B74FE00172204 /* CallQuality */ = {
+			isa = PBXGroup;
+			children = (
+				1353A5F62A3B750D00172204 /* CallQualityViewController.swift */,
+				1353A5F72A3B750D00172204 /* CallQualityViewController.xib */,
+			);
+			path = CallQuality;
 			sourceTree = "<group>";
 		};
 		36B928BAC3826B9884746567 /* Frameworks */ = {
@@ -196,6 +210,7 @@
 			files = (
 				1353A5CA2A39F09600172204 /* UIKitQuickstartViewController.xib in Resources */,
 				1353A5F42A3B598400172204 /* StreamMediaViewController.xib in Resources */,
+				1353A5F92A3B750D00172204 /* CallQualityViewController.xib in Resources */,
 				1353A5C52A38DF2900172204 /* SDKQuickstartViewController.xib in Resources */,
 				1353A5B82A38DB6C00172204 /* LaunchScreen.storyboard in Resources */,
 				1353A5B52A38DB6C00172204 /* Assets.xcassets in Resources */,
@@ -256,6 +271,7 @@
 				1353A5C92A39F09600172204 /* UIKitQuickstartViewController.swift in Sources */,
 				1353A5B02A38DB6A00172204 /* ViewController.swift in Sources */,
 				1353A5F32A3B598400172204 /* StreamMediaViewController.swift in Sources */,
+				1353A5F82A3B750D00172204 /* CallQualityViewController.swift in Sources */,
 				1353A5AC2A38DB6A00172204 /* AppDelegate.swift in Sources */,
 				1353A5AE2A38DB6A00172204 /* SceneDelegate.swift in Sources */,
 			);
