@@ -1,4 +1,5 @@
 PODS:
+  - Agora_Chat_iOS (1.1.0)
   - AgoraRtcEngine_iOS (4.2.0):
     - AgoraRtcEngine_iOS/AIAEC (= 4.2.0)
     - AgoraRtcEngine_iOS/AINS (= 4.2.0)
@@ -36,22 +37,25 @@ PODS:
     - AgoraRtmControl_iOS (= 4.1.1)
 
 DEPENDENCIES:
+  - Agora_Chat_iOS
   - AgoraRtcEngine_iOS (~> 4.2.0)
   - AgoraUIKit_iOS (~> 4.1.1)
 
 SPEC REPOS:
   trunk:
+    - Agora_Chat_iOS
     - AgoraRtcEngine_iOS
     - AgoraRtm_iOS
     - AgoraRtmControl_iOS
     - AgoraUIKit_iOS
 
 SPEC CHECKSUMS:
+  Agora_Chat_iOS: 78b181ded388278e88d40e256a4fc659e62c3115
   AgoraRtcEngine_iOS: ab13aeb715fc00abc91c4f5c0baab9f05ad79aae
   AgoraRtm_iOS: 595a9fa33a409831e6183396ea8f8bc563918403
   AgoraRtmControl_iOS: 079ada035adea91e2b8fdca33a50e0daf3074189
   AgoraUIKit_iOS: c0d65f7063f34743a2ec3c01019c257f54ec95b7
 
-PODFILE CHECKSUM: 9adf01aac1434e24257f4742dee87c03dbc0aa45
+PODFILE CHECKSUM: 61e3e071137faef1fecee1889546d0bb4cf3c1ed
 
 COCOAPODS: 1.12.0
